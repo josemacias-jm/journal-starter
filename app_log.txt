@@ -3,3 +3,147 @@
 2026-02-16 19:57:07,522 - api.main - INFO - Starting Journal API application...
 2026-02-16 20:18:13,592 - api.main - INFO - Starting Journal API application...
 2026-02-16 20:19:00,980 - api.main - INFO - Starting Journal API application...
+2026-02-16 23:44:46,075 - api.main - INFO - Starting Journal API application...
+2026-02-16 23:44:46,525 - journal - INFO - Creating entry
+2026-02-16 23:44:46,538 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:47,068 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 422 Unprocessable Entity"
+2026-02-16 23:44:47,587 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 422 Unprocessable Entity"
+2026-02-16 23:44:48,108 - journal - INFO - Fetching all entries
+2026-02-16 23:44:48,112 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:48,631 - journal - INFO - Creating entry
+2026-02-16 23:44:48,639 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:48,811 - journal - INFO - Fetching all entries
+2026-02-16 23:44:48,816 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:49,336 - journal - INFO - Creating entry
+2026-02-16 23:44:49,345 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:49,513 - journal - INFO - Creating entry
+2026-02-16 23:44:49,521 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:49,688 - journal - INFO - Creating entry
+2026-02-16 23:44:49,696 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:49,862 - journal - INFO - Fetching all entries
+2026-02-16 23:44:49,867 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:50,384 - journal - INFO - Creating entry
+2026-02-16 23:44:50,392 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:50,562 - journal - INFO - Fetching entry 8c409bd5-08b6-4073-9220-71ff00604ae2
+2026-02-16 23:44:50,578 - httpx - INFO - HTTP Request: GET http://test/entries/8c409bd5-08b6-4073-9220-71ff00604ae2 "HTTP/1.1 200 OK"
+2026-02-16 23:44:51,095 - journal - INFO - Fetching entry 00000000-0000-0000-0000-000000000000
+2026-02-16 23:44:51,097 - journal - WARNING - Entry 00000000-0000-0000-0000-000000000000 not found
+2026-02-16 23:44:51,100 - httpx - INFO - HTTP Request: GET http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 404 Not Found"
+2026-02-16 23:44:51,611 - journal - INFO - Creating entry
+2026-02-16 23:44:51,619 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:51,789 - journal - INFO - Updating entry 97ad7ddf-3dc9-4cd6-8f12-c0f50f0675b0
+2026-02-16 23:44:51,798 - httpx - INFO - HTTP Request: PATCH http://test/entries/97ad7ddf-3dc9-4cd6-8f12-c0f50f0675b0 "HTTP/1.1 200 OK"
+2026-02-16 23:44:52,315 - journal - INFO - Updating entry 00000000-0000-0000-0000-000000000000
+2026-02-16 23:44:52,317 - journal - WARNING - Entry 00000000-0000-0000-0000-000000000000 not found. Update aborted.
+2026-02-16 23:44:52,320 - httpx - INFO - HTTP Request: PATCH http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 404 Not Found"
+2026-02-16 23:44:52,840 - journal - INFO - Creating entry
+2026-02-16 23:44:52,848 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:53,022 - httpx - INFO - HTTP Request: DELETE http://test/entries/ccd43301-f811-4a92-a51c-226200374347 "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:44:53,565 - httpx - INFO - HTTP Request: DELETE http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:44:54,082 - journal - INFO - Creating entry
+2026-02-16 23:44:54,091 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:54,261 - journal - INFO - Creating entry
+2026-02-16 23:44:54,269 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:54,438 - journal - INFO - Creating entry
+2026-02-16 23:44:54,446 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:54,615 - journal - INFO - Deleting all entries
+2026-02-16 23:44:54,623 - httpx - INFO - HTTP Request: DELETE http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:54,789 - journal - INFO - Fetching all entries
+2026-02-16 23:44:54,793 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:44:55,313 - httpx - INFO - HTTP Request: POST http://test/entries/00000000-0000-0000-0000-000000000000/analyze "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:45:00,361 - journal - INFO - Creating entry
+2026-02-16 23:45:00,893 - journal - INFO - Creating entry
+2026-02-16 23:45:00,899 - journal - INFO - Creating entry
+2026-02-16 23:45:00,903 - journal - INFO - Creating entry
+2026-02-16 23:45:00,906 - journal - INFO - Fetching all entries
+2026-02-16 23:45:01,430 - journal - INFO - Creating entry
+2026-02-16 23:45:01,436 - journal - INFO - Fetching entry test-get
+2026-02-16 23:45:01,959 - journal - INFO - Fetching entry nonexistent-id
+2026-02-16 23:45:01,961 - journal - WARNING - Entry nonexistent-id not found
+2026-02-16 23:45:02,485 - journal - INFO - Creating entry
+2026-02-16 23:45:02,490 - journal - INFO - Updating entry test-update
+2026-02-16 23:45:03,018 - journal - INFO - Updating entry nonexistent-id
+2026-02-16 23:45:03,020 - journal - WARNING - Entry nonexistent-id not found. Update aborted.
+2026-02-16 23:45:03,540 - journal - INFO - Creating entry
+2026-02-16 23:45:03,546 - journal - INFO - Fetching entry test-delete
+2026-02-16 23:45:03,548 - journal - INFO - Deleting entry test-delete
+2026-02-16 23:45:03,551 - journal - INFO - Fetching entry test-delete
+2026-02-16 23:45:03,552 - journal - WARNING - Entry test-delete not found
+2026-02-16 23:45:04,065 - journal - INFO - Creating entry
+2026-02-16 23:45:04,070 - journal - INFO - Creating entry
+2026-02-16 23:45:04,074 - journal - INFO - Creating entry
+2026-02-16 23:45:04,077 - journal - INFO - Fetching all entries
+2026-02-16 23:45:04,077 - journal - INFO - Deleting all entries
+2026-02-16 23:45:04,080 - journal - INFO - Fetching all entries
+2026-02-16 23:50:02,942 - api.main - INFO - Starting Journal API application...
+2026-02-16 23:50:03,353 - journal - INFO - Creating entry
+2026-02-16 23:50:03,364 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:03,875 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 422 Unprocessable Entity"
+2026-02-16 23:50:04,383 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 422 Unprocessable Entity"
+2026-02-16 23:50:04,892 - journal - INFO - Fetching all entries
+2026-02-16 23:50:04,896 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:05,397 - journal - INFO - Creating entry
+2026-02-16 23:50:05,405 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:05,572 - journal - INFO - Fetching all entries
+2026-02-16 23:50:05,576 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:06,090 - journal - INFO - Creating entry
+2026-02-16 23:50:06,098 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:06,267 - journal - INFO - Creating entry
+2026-02-16 23:50:06,275 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:06,440 - journal - INFO - Creating entry
+2026-02-16 23:50:06,449 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:06,615 - journal - INFO - Fetching all entries
+2026-02-16 23:50:06,620 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:07,146 - journal - INFO - Creating entry
+2026-02-16 23:50:07,153 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:07,322 - journal - INFO - Fetching entry 443014af-2e46-4095-9de8-8510be312366
+2026-02-16 23:50:07,328 - httpx - INFO - HTTP Request: GET http://test/entries/443014af-2e46-4095-9de8-8510be312366 "HTTP/1.1 200 OK"
+2026-02-16 23:50:07,839 - journal - INFO - Fetching entry 00000000-0000-0000-0000-000000000000
+2026-02-16 23:50:07,841 - journal - WARNING - Entry 00000000-0000-0000-0000-000000000000 not found
+2026-02-16 23:50:07,843 - httpx - INFO - HTTP Request: GET http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 404 Not Found"
+2026-02-16 23:50:08,348 - journal - INFO - Creating entry
+2026-02-16 23:50:08,356 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:08,524 - journal - INFO - Updating entry 94f115dc-66d5-4984-ba70-4880aeddfe13
+2026-02-16 23:50:08,533 - httpx - INFO - HTTP Request: PATCH http://test/entries/94f115dc-66d5-4984-ba70-4880aeddfe13 "HTTP/1.1 200 OK"
+2026-02-16 23:50:09,051 - journal - INFO - Updating entry 00000000-0000-0000-0000-000000000000
+2026-02-16 23:50:09,053 - journal - WARNING - Entry 00000000-0000-0000-0000-000000000000 not found. Update aborted.
+2026-02-16 23:50:09,056 - httpx - INFO - HTTP Request: PATCH http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 404 Not Found"
+2026-02-16 23:50:09,578 - journal - INFO - Creating entry
+2026-02-16 23:50:09,586 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:09,764 - httpx - INFO - HTTP Request: DELETE http://test/entries/25f7e78e-47d9-482b-b07c-755b936bfc06 "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:50:10,360 - httpx - INFO - HTTP Request: DELETE http://test/entries/00000000-0000-0000-0000-000000000000 "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:50:10,923 - journal - INFO - Creating entry
+2026-02-16 23:50:10,931 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:11,108 - journal - INFO - Creating entry
+2026-02-16 23:50:11,116 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:11,289 - journal - INFO - Creating entry
+2026-02-16 23:50:11,298 - httpx - INFO - HTTP Request: POST http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:11,474 - journal - INFO - Deleting all entries
+2026-02-16 23:50:11,481 - httpx - INFO - HTTP Request: DELETE http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:11,657 - journal - INFO - Fetching all entries
+2026-02-16 23:50:11,662 - httpx - INFO - HTTP Request: GET http://test/entries "HTTP/1.1 200 OK"
+2026-02-16 23:50:12,202 - httpx - INFO - HTTP Request: POST http://test/entries/00000000-0000-0000-0000-000000000000/analyze "HTTP/1.1 501 Not Implemented"
+2026-02-16 23:50:17,434 - journal - INFO - Creating entry
+2026-02-16 23:50:17,967 - journal - INFO - Creating entry
+2026-02-16 23:50:17,972 - journal - INFO - Creating entry
+2026-02-16 23:50:17,977 - journal - INFO - Creating entry
+2026-02-16 23:50:17,980 - journal - INFO - Fetching all entries
+2026-02-16 23:50:18,510 - journal - INFO - Creating entry
+2026-02-16 23:50:18,515 - journal - INFO - Fetching entry test-get
+2026-02-16 23:50:19,045 - journal - INFO - Fetching entry nonexistent-id
+2026-02-16 23:50:19,047 - journal - WARNING - Entry nonexistent-id not found
+2026-02-16 23:50:19,570 - journal - INFO - Creating entry
+2026-02-16 23:50:19,576 - journal - INFO - Updating entry test-update
+2026-02-16 23:50:20,117 - journal - INFO - Updating entry nonexistent-id
+2026-02-16 23:50:20,119 - journal - WARNING - Entry nonexistent-id not found. Update aborted.
+2026-02-16 23:50:20,644 - journal - INFO - Creating entry
+2026-02-16 23:50:20,649 - journal - INFO - Fetching entry test-delete
+2026-02-16 23:50:20,650 - journal - INFO - Deleting entry test-delete
+2026-02-16 23:50:20,653 - journal - INFO - Fetching entry test-delete
+2026-02-16 23:50:20,654 - journal - WARNING - Entry test-delete not found
+2026-02-16 23:50:21,194 - journal - INFO - Creating entry
+2026-02-16 23:50:21,200 - journal - INFO - Creating entry
+2026-02-16 23:50:21,203 - journal - INFO - Creating entry
+2026-02-16 23:50:21,207 - journal - INFO - Fetching all entries
+2026-02-16 23:50:21,208 - journal - INFO - Deleting all entries
+2026-02-16 23:50:21,211 - journal - INFO - Fetching all entries
